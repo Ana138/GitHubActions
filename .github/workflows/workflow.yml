@@ -28,7 +28,7 @@ jobs:
 
       # Executa um único comando usando o shell runners
       - name: executando docker 
-        run: docker run docker/cowsay cowsay Test and Deploy
+        run: docker run docker/whalesay cowsay Test and Deploy
 
       # Executa um conjunto de comandos usando o shell runners
       - name: Run a multi-line script
