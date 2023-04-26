@@ -1,7 +1,7 @@
 # Este é um fluxo de trabalho básico utilizado na Aula sobre GitHub Actios DevOps Básico.
 
 #nome do meu fluxo
-name: CI
+name: CI test
 
 # Controla quando o fluxo de trabalho será executado
 on:
