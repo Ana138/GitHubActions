@@ -28,10 +28,10 @@ jobs:
 
       # Executa um único comando usando o shell runners
       - name: executando docker 
-        run: docker run docker/whalesay cowsay DEVOPS IT TALENT
+        run: docker run docker/cowsay cowsay Test and Deploy
 
       # Executa um conjunto de comandos usando o shell runners
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo validando meu 
+          echo finalizando meu workflow
